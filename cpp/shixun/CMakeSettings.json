@@ -1,0 +1,27 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "MYSQL_INCLUDE",
+          "value": "D:\\mysql8\\mysql-8.0.46-winx64\\include",
+          "type": "PATH"
+        },
+        {
+          "name": "MYSQL_LIB",
+          "value": "D:\\mysql8\\mysql-8.0.46-winx64\\lib",
+          "type": "FILEPATH"
+        }
+      ]
+    }
+  ]
+}
